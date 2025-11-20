@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --aws-orange: #ff9900;
+  --aws-orange-light: #ffb84d;
+  --aws-orange-dark: #e6890a;
+  --aws-blue: #232f3e;
+  --aws-blue-light: #37475a;
+  --aws-blue-dark: #161e2d;
+  --atlassian-blue: #0052cc;
+  --atlassian-blue-light: #0065ff;
+  --atlassian-blue-dark: #0043a3;
+  --success-green: #36b37e;
+  --warning-yellow: #ffab00;
+  --error-red: #de350b;
+  --neutral-100: #f4f5f7;
+  --neutral-200: #ebecf0;
+  --neutral-300: #dfe1e6;
+  --neutral-400: #b3bac5;
+  --neutral-500: #8993a4;
+  --neutral-600: #6b778c;
+  --neutral-700: #505f79;
+  --neutral-800: #42526e;
+  --neutral-900: #253858;
+}

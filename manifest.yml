@@ -1,0 +1,19 @@
+modules:
+  jira:globalPage:
+    - key: z-pract-renzo-hello-world-page
+      resource: main
+      resolver:
+        function: resolver
+      title: z-pract-renzo
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/e0635a48-2ecf-4fe3-b71e-be89edb91b1a
